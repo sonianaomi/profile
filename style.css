@@ -1,0 +1,134 @@
+body {
+  color: #2C363F;
+  background-color: #E1E8F4;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  color: #33658A;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 0;
+}
+
+h1{
+  font-size: 1.65em;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+a {
+  color: #6D72C3;
+  text-decoration: none;
+  transition: color linear 200ms;
+}
+
+a:hover{
+  color: #2C363F;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*helper*/
+.txt-center{
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*container*/
+.container{
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.card{
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px #A5B5BF;
+}
+
+.card:first-child img{
+  width: 130px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.card:first-child h2{
+  color: #A5B5BF;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+/*List*/
+.list-icon li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.list-icon li a{
+  color: #A5B5BF;
+}
+
+.list-icon li a:hover{
+  color: #33658A;
+}
+
+.list-icon li .fa{
+  font-size: 24px;
+}
+
+.list-icon.social{
+  margin: 30px 0;
+}
+
+.list-icon.social li i{
+  display: block;
+}
+
+.list-info{
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.list-info li{
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.list-info li .cover{
+  width: 95px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.list-info h3{
+  color: #2C363F;
+  font-size: 1em;
+}
+
+.list-info p{
+  margin: 8px 0;
+}
